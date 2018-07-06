@@ -1,0 +1,69 @@
+:
+http://47.98.60.35  和47.99.32.99正式服
+:     
+http://121.43.179.13 测试服
+我正式服旧的D2&fKnj1fn
+我正式服薪的：47.98.125.22
+N4bx$Bz1hOsn
+原主机名prod-analysis-1
+
+
+teambition
+
+
+服务器：
+	ssh 
+	旧的测试服 121.43.179.13
+	root
+  密码：KFFNE#*@NFFF1fF  file最下面才能打开
+新测试服118.31.20.144   3m5&neUs#n
+
+jdbc.driver=com.mysql.jdbc.Driver
+jdbc.url=jdbc:mysql://121.43.179.13:3306/koudaishu_dev?characterEncoding=utf-8
+jdbc.username=root
+jdbc.password=fk3FJ*@@f33
+
+CLASSPATH=.
+	 JAVA_HOME=/mnt/jdk1.7.0_65
+	 PATH=$JAVA_HOME/bin:$PATH
+	 export JAVA_HOME	
+	 export PATH
+	 export CLASSPATH
+
+
+
+
+source ./.bashrc
+
+
+
+主机名：prod-web-3
+
+
+远程连接其他电脑 ssh ip      
+yes
+exit退出
+ssh免密
+
+
+查看是否可以ping  cat /proc/sys/net/ipv4/icmp_echo_ignore_all
+
+
+一个agent可以copy改个名字
+
+如果source是netcat的type  安装telnet  rpm -ivh /mnt/telnet-0.17-47.el6_3.1.i686.rpm
+
+
+
+
+
+
+a1.sinks.k1.hdfs.path=/data/%{hostname}%y-%m-%d/%H%M/%S
+
+
+
+
+
+a1.sources.r1.interceptors.i1.type = static
+a1.sources.r1.interceptors.i1.key = datacenter
+a1.sources.r1.interceptors.i1.value = 121.43.178.13
